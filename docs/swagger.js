@@ -21,11 +21,11 @@ const swaggerDefinition = {
             bearerAuth: [],
         }
     ],
-    // servers: [
-    //     {
-    //         url: "http://localhost:3000"
-    //     }
-    // ]
+    servers: [
+        {
+            url: "https://sistema-musica-dj-3n18.onrender.com"
+        }
+    ]
 };
 
 const options = {

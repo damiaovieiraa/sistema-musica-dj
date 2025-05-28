@@ -48,7 +48,7 @@ document.getElementById("getMusicasBtn").addEventListener("click", async (e) => 
     }
 
     const url = "http://localhost:3000/musicas"
-    const response = await fetch(url, {
+    const response = await fetch(url + "/musicas", {
         headers: {"Authorization": `Bearer ${token}`}
     })
 
