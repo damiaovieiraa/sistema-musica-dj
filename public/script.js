@@ -46,8 +46,7 @@ document.getElementById("getMusicasBtn").addEventListener("click", async (e) => 
         alert('Please login first!');
         return;
     }
-
-    const url = "http://localhost:3000/musicas"
+    
     const response = await fetch(url + "/musicas", {
         headers: {"Authorization": `Bearer ${token}`}
     })
